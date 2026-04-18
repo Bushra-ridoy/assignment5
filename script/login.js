@@ -6,6 +6,7 @@ loginBtn.addEventListener('click', ()=>{
     const passValue=password.value;
     if(userValue==="admin" && passValue==="admin123"){
         alert("Login Successful");
+        window.location.assign("home.html");
     }
     else{
         alert("Invalid Credential");
